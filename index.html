@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Document</title>
+</head>
+
+<body>
+    <section class="bg-black">
+        <header class="bg-[black] text-white">
+            <nav class="flex items-center justify-between px-12 h-16 lg:gap-8">
+                <a href="#" class="text-2xl font-bold whitespace-nowrap text-[#E8BDA1]">Style Symphony</a>
+                <!-- <a href="#" class="text-3xl"></a> -->
+                <div
+                    class="dropdown-menu absolute -top-full left-0 max-lg:bg-[#ffffff] max-lg:text-black w-full flex py-2 text-lg font-bold flex-col gap-6 items-center lg:static lg:flex-row lg:justify-between z-20 ">
+                    <ul class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+                        <li class="hover:text-[#E8BDA1]">Home</li>
+                        <li class="hover:text-[#E8BDA1]">Service</li>
+                        <li class="hover:text-[#E8BDA1]">Shops</li>
+                        <li class="hover:text-[#E8BDA1]">About</li>
+                    </ul>
+                    <div class="flex flex-col items-center gap-6 lg:flex-row lg:gap-8">
+                        <button class="hover:text-[#E8BDA1]">Log-in</button>
+                        <button class="bg-[#E8BDA1] rounded-lg px-2 py-1 hover:bg-white hover:text-black">Sign-up</button>
+                    </div>
+                </div>
+                <div class="toggle-button lg:hidden">
+                    <i class="fa-solid fa-bars font-bold text-2xl"></i>
+                </div>
+            </nav>
+        </header>
+    </section>
+    <section class="bg-black max-">
+        <div data-aos="fade-right" id="hero" class="flex max-md:flex-col">
+            <div class="my-28 w-3/6 ms-32 max-md:w-fit max-md:mx-7 max-sm-[480px]:mx-3 max-lg-[1080]:ms-10 ">
+                <h1
+                    class="text-6xl font-bold mb-7 text-[#E8BDA1] max-md:text-8xl max-md:mb-30  max-sm-[320px]:text-6xl">
+                    Dreadlocks & Weave
+                    Spa</h1>
+                <p class="text-2xl mb-6 text-white max-md:text-4xl max-md:mb-9 max-sm:text-3xl ">"Dreadlocks & Weave Spa
+                    is a specialized haven for hair transformations. Embracing the art of dreadlocks and weaves, we
+                    offer a spa experience, blending style with relaxation for a holistic beauty journey."</p>
+                <!-- <h1 class="text-xl mb-6 text-white  ">Images from
+                    <span>Freepik</span>
+                </h1> -->
+                <button
+                    class="px-8 py-2 bg-transparent border-white border-2 rounded text-white  hover:bg-white hover:text-black max-md:px-12 max-md:py-4 max-sm:px-8 max-sm:py-2">SERVICES</button>
+                <button
+                    class="px-8 py-2 bg-[#E8BDA1] rounded text-white hover:bg-white hover:text-black mx-3 max-md:px-12 max-md:py-4 max-sm:px-8 max-sm:py-2">BOOK
+                    NOW</button>
+
+            </div>
+            <div class="w-3/6 flex items-center justify-center max-md:w-11/12 max-lg-[1080]:w-4/6">
+                <img class="w-2/3 " src="https://assets.nicepagecdn.com/d2cc3eaa/3125827/images/Untitled-1.jpg" alt="">
+            </div>
+        </div>
+    </section>
+    <!-- services ------------------------------------------------------------------>
+    <section id="services" class="bg-[#E8BDA1] py-16">
+        <div data-aos="zoom-in" class="text-center text-6xl font-bold mb-20">Hair Services</div>
+        <div class="grid grid-cols-4 gap-8   max-xl:grid-cols-2 max-sm:grid-cols-1 ">
+            <div class="flex flex-col items-center w-64 mx-auto ">
+                <img class="rounded-full border-8 border-white w-52"
+                    src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/23cfc8a8ddea518493fefc3f/d85c6484-e032-e766-114a-3c4f70b9cd91.jpg"
+                    alt="">
+                <h1 class="mt-5 mb-2 text-2xl tracking-wider font-bold">PERMANENT COLOR</h1>
+                <h1 class="my-3 font-bold text-xl">$225 and Up</h1>
+                <p class="text-center italic">"Experience a transformative permanent color hair service, where skilled
+                    professionals craft personalized hues to enhance your unique style.</p>
+            </div>
+            <div class="flex flex-col items-center w-64 mx-auto">
+                <img class="rounded-full border-8 border-white w-52 "
+                    src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/3bd2bae272915e2e8ad02812/dsdsd.jpg"
+                    alt="">
+                <h1 class="mt-5 mb-2 text-2xl tracking-wider font-bold text-center">WASH, RETWIST AND STYLE</h1>
+                <h1 class="my-3 font-bold text-xl">$250 and Up</h1>
+                <p class="text-center italic">"Indulge in our rejuvenating Wash, Retwist, and Style service, leaving
+                    your locks refreshed, styled, and radiating natural beauty."</p>
+            </div>
+            <div class="flex flex-col items-center w-64 mx-auto">
+                <img class="rounded-full border-8 border-white w-52"
+                    src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/5bfb580ddc9a5375a5fcbf93/000d68fc-8143-28ce-c245-876398073a2d.jpg"
+                    alt="">
+                <h1 class="mt-5 mb-2 text-2xl tracking-wider font-bold text-center">DETOX TREATMENT</h1>
+                <h1 class="my-3 font-bold text-xl">$210 and Up</h1>
+                <p class="text-center italic">Pamper your hair with our rejuvenating Detox Treatment service, designed
+                    to cleanse, nourish, and revitalize for a vibrant, healthy look.</p>
+            </div>
+            <div class="flex flex-col items-center w-64 mx-auto">
+                <img class="rounded-full border-8 border-white w-52"
+                    src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/79f9825468635659b77ffe68/8554a0da-6262-fe25-42cf-743b0d0f3815.jpg"
+                    alt="">
+                <h1 class="mt-5 mb-2 text-2xl tracking-wider font-bold text-center">HOT OIL TREATMENT</h1>
+                <h1 class="my-3 font-bold text-xl">$240 and Up</h1>
+                <p class="text-center italic">Revitalize your hair with our soothing Hot Oil Treatment, promoting
+                    hydration, shine, and overall hair health in a relaxing session.</p>
+            </div>
+        </div>
+    </section>
+    <section class="about bg-black ">
+        <div class="container mx-auto px-4 grid grid-cols-2 gap-8  max-lg:grid-cols-1">
+            <div class="py-32 px-8 max-md:py-20">
+                <h1 class="text-6xl font-bold my-9 text-white max-md:text-5xl">About Salon</h1>
+                <p class="text-2xl tracking-wide leading-9 text-white font-bold mb-7">To provide a safe and enjoyable
+                    environment for all of our clients and work with our clients to
+                    achieve the results to services they request, while focusing their hair, nail, and skin health.</p>
+                <p class="text-2xl tracking-wide leading-9 mb-7 text-white">Step into our welcoming salon, where Egestas
+                    egestas fringilla phasellus faucibus scelerisque eleifend create a haven for beauty. Our skilled
+                    team offers posuere services, from trendy cuts to indulgent spa experiences, ensuring your
+                    pellentesque needs are met with excellence..</p>
+                <button
+                    class="px-8 py-2 bg-[#E8BDA1] rounded text-white hover:bg-white hover:text-black mx-3 max-md:px-12 max-md:py-4 max-sm:px-8 max-sm:py-2">Learn
+                    More</button>
+            </div>
+            <div data-aos="fade-up" data-aos-duration="3000" class="grid grid-rows-3 gap-8 py-12">
+                <div class="bg-[#E8BDA1] px-10 py-6 rounded-xl tracking-wide w-10/12 mx-auto">
+                    <div class="text-2xl my-3"><i class="fa-solid fa-quote-left"></i></div>
+                    <p>Exceptional experience at the hair shop! Skilled stylists, trendy cuts, and a welcoming
+                        atmosphere. The staff is friendly and attentive. Walked out feeling fabulous. Highly recommend
+                        for quality service!</p>
+                    <h1 class="text-xl my-3 font-bold">Emily Johnson</h1>
+                </div>
+                <div class="bg-[#E8BDA1] px-10 py-6 rounded-xl tracking-wide w-10/12 mx-auto">
+                    <div class="text-2xl my-3"><i class="fa-solid fa-quote-left"></i></div>
+                    <p>Outstanding hair shop! Skilled professionals, trendy styles, and a warm ambiance. The staff is
+                        friendly and attentive to your preferences. Always leave satisfied with a stylish look. Highly
+                        recommended!</p>
+                    <h1 class="text-xl my-3 font-bold">Carlos Rodriguez</h1>
+                </div>
+                <div class="bg-[#E8BDA1] px-10 py-6 rounded-xl tracking-wide w-10/12 mx-auto">
+                    <div class="text-2xl my-3"><i class="fa-solid fa-quote-left"></i></div>
+                    <p>A gem of a hair shop! The stylists are talented, and the ambiance is chic. From consultation to
+                        the final look, the experience was delightful. I left with a fantastic haircut and a big smile.
+                    </p>
+                    <h1 class="text-xl my-3 font-bold">Megan Thompson</h1>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container mx-auto p-14">
+            <h1
+                class="text-center text-7xl mx-36 font-bold text-[#E8BDA1] my-14 max-lg:text-5xl max-lg:mx-20 max-md:mx-10 max-sm:text-4xl max-sm:mx-2">
+                To book and for exact pricing please call us at 123-456-7868</h1>
+            <div class="img-sec grid grid-cols-3 gap-12 max-lg:grid-cols-2 max-sm:grid-cols-1 ">
+                <div class="mx-auto w-4/5 relative">
+                    <div class="relative overflow-hidden" style="padding-top: 100%;">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/93767a36797555b3a9bbcbcd/fgfgg5.jpg"
+                            alt class="absolute inset-0 transform hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="mx-auto w-4/5 relative">
+                    <div class="relative overflow-hidden" style="padding-top: 100%;">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/06cc40eef4fc51669ae794a3/fgfgg.jpg"
+                            alt class="absolute inset-0 transform hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="mx-auto w-4/5 relative">
+                    <div class="relative overflow-hidden" style="padding-top: 100%;">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/3c478243d93a5ffeaa49a82d/fgfgfggf.jpg"
+                            alt class="absolute inset-0 transform hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="mx-auto w-4/5 relative">
+                    <div class="relative overflow-hidden" style="padding-top: 100%;">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/f5c1027c7d955719a7224416/dfdfdfdfdfdfdfdfdfdfdf.jpg"
+                            alt class="absolute inset-0 transform hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="mx-auto w-4/5 relative">
+                    <div class="relative overflow-hidden" style="padding-top: 100%;">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/ca003e6f8b795d82a8b0cb13/rtrtrtrt.jpg"
+                            alt class="absolute inset-0 transform hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+                <div class="mx-auto w-4/5 relative">
+                    <div class="relative overflow-hidden" style="padding-top: 100%;">
+                        <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/b04ffcf9140a55d9ab4a1815/hghg.jpg"
+                            alt class="absolute inset-0 transform hover:scale-105 transition-transform duration-300">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+
+    </section>
+
+    <section class="p-16 bg-[#E8BDA1] max-lg:p-6">
+        <div class="container mx-auto grid grid-cols-2 max-lg:grid-cols-1 ">
+            <div>
+                <div><img class=""
+                        src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/5c98b28c952d54e3b1e515c9/gffgfg.jpg"
+                        alt=""></div>
+            </div>
+            <div class="grid grid-rows-2">
+                <div class="text-right  py-12 px-20 max-lg:px-6 max-py:3">
+                    <h1 class="text-2xl tracking-wider my-5 font-bold">Who are we</h1>
+                    <p class="text-xl mb-5">Welcome to our premier hair salon, where skilled professionals create
+                        stunning looks with precision and passion. Our commitment to excellence ensures each client
+                        receives personalized attention and a unique style tailored to enhance their individual beauty.
+                    </p>
+                    <hr class="border-t-1 border-black">
+                </div>
+                <div class="text-right  py-12 px-20 max-lg:px-6 max-py:3">
+                    <h1 class="text-2xl tracking-wider my-5 font-bold">What we are</h1>
+                    <p class="text-xl mb-5">In our serene space, we prioritize your comfort, providing a haven for
+                        relaxation and rejuvenation. Step into a world of innovation, where we stay ahead of trends to
+                        deliver cutting-edge styles and transformative experiences.</p>
+                    <hr class="border-t-1 border-black">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="bg-black">
+        <div class="container mx-auto grid grid-cols-2 p-9 max-lg:grid-cols-1 max-md:p-2">
+            <div class="p-14">
+                <h1 class="text-5xl font-bold my-4 tracking-wider text-white max-sm:text-3xl">Why us ?</h1>
+                <p class="text-2xl font-bold my-4 tracking-wider text-white max-sm:text-xl">We specialize in locking
+                    all textures of hair from straight to curly to wavy to kinky. We also lock relaxed hair.</p>
+                <p class="text-2xl my-6 tracking-wider text-white max-sm:text-xl">Indulge in our hair salon's expertise.
+                    Egestas egestas fringilla, faucibus scelerisque. Pharetra magna, vestibulum placerat. Suspendisse
+                    lacus, interdum posuere, rutrum tellus. Experience personalized care and style innovation. Trust us
+                    for the perfect balance of trendsetting and timeless looks.</p>
+                <button
+                    class="px-8 py-2 bg-[#E8BDA1] rounded text-white hover:bg-white hover:text-black mx-3 max-md:px-12 max-md:py-4 max-sm:px-8 max-sm:py-2">Learn
+                    More</button>
+            </div>
+            <div>
+                <div class="p-4">
+                    <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/b72fb2c522a95ccfbc42846e/bfa58c15-fd77-f52e-94e7-443d7f3d5aec.jpg"
+                        alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="bg-[#E8BDA1]">
+        <div class="container mx-auto grid grid-cols-2 max-lg:grid-cols-1">
+            <div>
+                <div class="p-6">
+                    <img src="https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/bd1ac018244d51289ca8ddc5/ghghhghghhg.jpg"
+                        alt="">
+                </div>
+            </div>
+            <div class="p-14">
+                <h1 class="text-6xl my-7 font-bold">Visit us</h1>
+                <p class="text-2xl w-80 ">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+                <h1 class="text-3xl my-7 font-bold">Hours</h1>
+                <p class="text-2xl">Monday – Saturday</p>
+                <p class="text-2xl mb-4">9am – 7pm</p>
+                <p class="text-2xl">Sunday</p>
+                <p class="text-2xl">10am – 6pm</p>
+                <h1 class="text-3xl my-7 font-bold">Phone</h1>
+                <p class="text-2xl">1 (234) 567-891</p>
+
+            </div>
+        </div>
+    </section>
+
+    <section
+        style="background: linear-gradient(0deg, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url(https://images01.nicepagecdn.com/c461c07a441a5d220e8feb1a/d0f52933ed605293a4cca814/fgfgfg-min.jpg); background-position: center; background-size: cover;">
+        <div class="container mx-auto grid grid-cols-2 max-lg:grid-cols-1 text-white">
+            <div class="p-24 max-md:p-5">
+                <h1 class="text-6xl font-bold my-7">Contact us</h1>
+                <p class="text-2xl font-bold"><i class="fa-solid fa-phone me-3 my-3 "></i> Call us</p>
+                <p class="text-xl my-2">1 (234) 567-891, 1 (234) 987-654</p>
+                <p class="text-2xl my-3 font-bold"><i class="fa-solid fa-location-dot me-4"></i>Location</p>
+                <p class="text-xl my-2">121 Rock Sreet, 21 Avenue, New York, NY 92103-9000</p>
+                <p class="text-2xl my-3 font-bold"><i class="fa-solid fa-clock me-4"></i>Hours</p>
+                <p class="text-xl my-2">Mon – Fri …… 10 am – 8 pm, Sat, Sun ....… ​9am – 7pm</p>
+            </div>
+            <div class="p-24 max-md:p-5">
+                <div class="grid grid-cols-2 gap-4 my-6 max-lg:grid-cols-1">
+                    <div class="">
+                        <p class="font-bold">Email</p>
+                        <input type="text" placeholder="Enter a valid email address"
+                            class="w-full px-4 py-2 border text-gray-700 border-gray-300 focus:border-blue-500 focus:outline-none">
+
+                    </div>
+                    <div>
+                        <p class="font-bold">Name</p>
+                        <input type="text" placeholder="Enter your name"
+                            class="w-full px-4 py-2 border  text-gray-700 border-gray-300 focus:border-blue-500 focus:outline-none">
+
+                    </div>
+                </div>
+                <p class="mt-7 font-bold">Address</p>
+                <input type="text" placeholder="Enter your address"
+                    class="w-full px-4 py-2 border  text-gray-700 border-gray-300 focus:border-blue-500 focus:outline-none">
+                <p class="mt-7 font-bold">Message</p>
+                <textarea placeholder="Enter your message"
+                    class="w-full px-4 py-2 border rounded-lg text-gray-700 border-gray-300 focus:border-blue-500 focus:outline-none"></textarea>
+                <button type="submit"
+                    class="mt-7 w-full py-4  bg-[#E8BDA1] text-black rounded-lg hover:bg-white focus:outline-none">SUBMIT</button>
+            </div>
+
+        </div>
+    </section>
+    <script>
+        AOS.init();
+    </script>
+    <script>
+        const togglebtn = document.querySelector(".toggle-button");
+        const dropdown = document.querySelector(".dropdown-menu");
+
+        togglebtn.addEventListener("click", () => {
+            dropdown.classList.toggle('top-16')
+        })
+    </script>
+</body>
+
+</html>
